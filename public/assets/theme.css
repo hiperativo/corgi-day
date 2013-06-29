@@ -12,5 +12,15 @@ p {
 h1 {
   padding: 20px 0; }
 
+.redator {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .redator h3 {
+    padding: 0;
+    margin-top: -10px; }
+  .redator p {
+    font-size: 15px;
+    line-height: 1.4; }
+
 * {
   /*border: 1px solid red; */ }
