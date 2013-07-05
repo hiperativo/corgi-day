@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd ../../..
+bundle install
+bundle exec rake db:migrate
+foreman start -p 5000
