@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		title corgiday
+		= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+		= javascript_include_tag "application", "data-turbolinks-track" => true
+		= csrf_meta_tags
+
+	body
+		.container
+			header
+				.row
+					= image_tag "logo-lecao-verde-v1.png", class: "span2"
+
+					nav
+						ul.nav
+
+							- for item in ["blog", "sobre", "vídeos", "contato"]							
+								li
+									a.icon class=item.parameterize href="#"
+									a href="#"= item
+
+			.row
+				.span7
+					h1 BLOG
+			.row	
+				section.content.span7
+					= yield 
+
+
