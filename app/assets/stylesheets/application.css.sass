@@ -1,0 +1,143 @@
+//= require bootstrap
+
+@font-face
+	font-family: "Museo Sans"
+	font-weight: 500
+	font-style: normal
+	src: asset-url("MuseoSans_500.otf", fonts)
+
+@font-face
+	font-family: "Museo Sans"
+	font-weight: 700
+	font-style: normal
+	src: asset-url("MuseoSans-900.otf", fonts)
+
+$branco: #FFF
+$ciano: #19bda3
+$verde: #95ff98
+
+$tipo_corpo: "Museo Sans"
+$tipo_titulo: "Museo Sans"
+
+body 
+	margin-top: 40px
+	font-size: 16px
+	line-height: 1.5
+	font-family: $tipo_corpo
+	background-color: #e79d63
+	background-image: image-url('bg-chinelinho-v3.gif')
+
+a
+	color: #FFF
+
+header
+	margin: 20px 0 60px 0
+
+p 
+	font-size: 16px
+	line-height: 1.5
+	font-family: $tipo_corpo
+
+h1 
+	font-family: $tipo_titulo
+	// font-weight: 900
+	color: $ciano
+	padding: 20px 0
+
+h2
+	font-size: 35px
+
+.redator
+	margin-top: 30px
+	margin-bottom: 30px
+
+	h3
+		padding: 0
+		margin-top: -10px
+
+	p 
+		font-size: 15px
+		line-height: 1.4
+
+article
+	background-color: $branco
+	padding: 30px
+	border-radius: 10px
+	margin-bottom: 60px
+	header
+		margin-top: 0
+		margin-bottom: 20px
+		h2
+			margin-top: -10px
+	footer
+		overflow: hidden
+	.dados
+		text-transform: uppercase
+		font-size: 12px
+nav
+	ul.nav
+		width: 310px
+		overflow: hidden
+		float: right
+		li
+			height: 80px
+			width: 55px
+			float: left
+			margin: 0
+			background-repeat: no-repeat
+			position: relative
+			padding: 0 10px
+			a 
+				text-align: center
+				color: #333
+
+			a.icon	
+				background-image: image-url('icones-menu.png')
+				height: 55px
+				width: 55px
+				margin-bottom: 5px
+
+				&.blog
+					background-position: 0 0
+
+				&.sobre
+					background-position: -55px 0
+
+				&.videos
+					background-position: -110px 0
+
+				&.contato
+					background-position: -165px 0
+			
+			&:hover, &.active
+				a
+					color: $ciano
+				a.icon
+					&.blog
+						background-position: 0 -55px
+					&.sobre
+						background-position: -55px -55px
+					&.videos
+						background-position: -110px -55px
+					&.contato
+						background-position: -165px -55px
+
+
+.content
+
+*
+	/*border: 1px solid red;*/
+
+
+// .content 
+// 	width: 990px
+// 	margin: 0 auto
+
+
+// nav ul 
+// 	list-style-type: none
+// 	padding: 0px
+
+// 	li 
+// 		display: inline
+// 		margin-right: 10px
