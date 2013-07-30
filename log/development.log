@@ -12325,3 +12325,90 @@ Started GET "/assets/application.js?body=1" for 10.0.0.200 at 2013-07-29 23:31:1
 
 
 Started GET "/assets/logo-lecao-verde-v1.png" for 10.0.0.200 at 2013-07-29 23:31:12 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 23:52:06 -0300
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.slim within layouts/application (25.8ms)
+Completed 200 OK in 429ms (Views: 341.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/logo-lecao-verde-v1.png" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/bg-chinelinho-v3.gif" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/icones-menu.png" for 127.0.0.1 at 2013-07-29 23:52:08 -0300
+
+
+Started GET "/assets/MuseoSans_500.otf" for 127.0.0.1 at 2013-07-29 23:52:09 -0300
+
+
+Started GET "/assets/MuseoSans-900.otf" for 127.0.0.1 at 2013-07-29 23:52:09 -0300
